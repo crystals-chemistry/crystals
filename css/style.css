@@ -1,19 +1,5 @@
-26c4e5/*----------------------------------------------------
-@File: Default Styles
-@Author: Md. Shahadat Hussain
-@URL: https://themeforest.net/user/droitthemes
+/*----------------------------------------------------
 
-This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name:
-@Author: Md. Shahadat Hussain
-@Developed By: Rony
-@Developer URL: https://themeforest.net/user/droitthemes
-
-@Default Styles
 
 Table of Content:
 01/ variables
@@ -3071,11 +3057,17 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-transform: translateY(3rem);
   -ms-transform: translateY(3rem);
   transform: translateY(3rem);
-  -webkit-transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
-  transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
-  -o-transition: transform .5s .6s ease, opacity .5s .6s ease;
-  transition: transform .5s .6s ease, opacity .5s .6s ease;
-  transition: transform .5s .6s ease, opacity .5s .6s ease, -webkit-transform .5s .6s ease;
+  -webkit-transition: opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
+  transition: opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
+  -o-transition: transform .5s .6s ease,
+ opacity .5s .6s ease;
+  transition: transform .5s .6s ease,
+ opacity .5s .6s ease;
+  transition: transform .5s .6s ease,
+ opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
   list-style: none;
   padding-left: 18%;
   padding-right: 100px;
@@ -10906,12 +10898,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 4px;
-  background: -webkit-linear-gradient(40deg, rgba(38, 196, 229, 0.0) 0%, rgba(23, 199, 189, 0.0) 100%), url("../img/crystals/video_bg.jpg") no-repeat;
-  background: -o-linear-gradient(40deg, rgba(38, 196, 229, 0.0) 0%, rgba(23, 199, 189, 0.0) 100%), url("../img/crystals/video_bg.jpg") no-repeat;
-  background: linear-gradient(50deg, rgba(38, 196, 229, 0.0) 0%, rgba(23, 199, 189, 0.0) 100%), url("../img/crystals/video_bg.jpg") no-repeat;
   background-size: cover;
-  -webkit-box-shadow: 0px 50px 70px 0px rgba(0, 11, 40, 0.24);
-  box-shadow: 0px 50px 70px 0px rgba(0, 11, 40, 0.24);
   height: 450px;
   max-width: 770px;
   margin: 0 auto;
